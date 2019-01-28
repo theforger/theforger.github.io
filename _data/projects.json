@@ -2,23 +2,25 @@
 	{
 		"slug": "eternity",
 		"name": "Eternity - The Last Unicorn",
-		"image": "placeholder.jpg",
+		"image": "eternity.jpg",
 		"url": "http://eternity.voidstudios.com.br/",
 		"date": "",
 		"tags": ["Game Development"]
 	},
 	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Python","Django"]
+		"slug": "arani",
+		"name": "Araní",
+		"image": "arani.jpg",
+		"url": "http://aranigame.com",
+		"date": "",
+		"tags": ["Game Development"]
 	},
 	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","Django"]
+		"slug": "otwd",
+		"name": "Overkill's The Walking Dead",
+		"image": "otwd.jpg",
+		"url": "https://www.overkillsthewalkingdead.com",
+		"date": "",
+		"tags": ["Game Development"]
 	}
 ]
