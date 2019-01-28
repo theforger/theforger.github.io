@@ -18,4 +18,5 @@ in Brazil for Games.
 Today I have a high proficiency with C++ around the UE API, but I have a very large ability to adapt my knowledge to another engines.
 
 If you need something or want to ask any question, please contact me at:
+
 email: fabio[at]dioramadigital.com
