@@ -35,3 +35,6 @@ void AMyPlayer::ReflectionSystem(FString FunctionToCall)
 	}
 }
 {% endhighlight %}
+
+This will create a node, where you will be able to call any function by their name.
+Right now I'm studying on how to pass arguments and avoid any type of crash with you wrote a wrong name of function.
