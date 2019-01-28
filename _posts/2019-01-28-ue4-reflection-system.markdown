@@ -1,25 +1,29 @@
 ---
 layout: post
 title:  "Unreal Engine 4 - Reflection System"
-date:   2013-02-19 21:28:15 +0700
+date:   2019-01-28 14:00:00 +0700
 categories: [Unreal CPP]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Reflection is the ability of a program to inspect its own code (or other associated code) and change at runtime. By default, C++ isn’t capable of that, however Unreal Engine is kind enough and created this ability!
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight c++ %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+.h
+{% highlight cpp %}
+public:
+	UFUNCTION(BlueprintCallable, Category = Reflection)
+	void ExecuteFunction(FString FunctionToCall);
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+.cpp
+{% highlight cpp %}
+void ABasePlayer::ReflectionSystem(FString FunctionToCall)
+{
+	UFunction* theFunction = FindFunctionChecked(*FunctionToCall);
+	if( theFunction )
+	{
+		void* local = nullptr;
+		FFrame* frame = new FFrame(this, theFunction, local);
+		CallFunction(*frame, local, theFunction);
+		delete frame;
+	}
+}
+{% endhighlight %}
