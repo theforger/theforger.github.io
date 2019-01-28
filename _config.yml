@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
+title: The Forger
+description: Working, working, working...
+author: Fabio Gomes
+github: https://github.com/theforger
+about: Game Developer and Unreal Engine Magician
+disqus_shortname: theforger
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -17,15 +17,15 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      link: "https://facebook.com/evzcd/"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "#"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
+      link: "https://www.linkedin.com/in/theforger/"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/theforger/"
 
 share:
   twitter_username: agusmakmun6
