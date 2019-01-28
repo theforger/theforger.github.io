@@ -34,7 +34,7 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
+    - text: Portfolio
       url: /projects/
 
 
