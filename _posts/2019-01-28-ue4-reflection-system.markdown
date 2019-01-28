@@ -10,19 +10,27 @@ Reflection is the ability of a program to inspect its own code (or other associa
 {% highlight cpp %}
 public:
 	UFUNCTION(BlueprintCallable, Category = Reflection)
-	void ExecuteFunction(FString FunctionToCall);
+	void ReflectionSystem(FString FunctionToCall);
 {% endhighlight %}
 
 .cpp
 {% highlight cpp %}
-void ABasePlayer::ReflectionSystem(FString FunctionToCall)
+void AMyPlayer::ReflectionSystem(FString FunctionToCall)
 {
+	/* FindFunctionChecked will return a pointer to a UFunction based on a given FName.
+	We use * before our arg to convert our FString to FName */
 	UFunction* theFunction = FindFunctionChecked(*FunctionToCall);
+	/* For security we check if it's valid */
 	if( theFunction )
 	{
+		/* This pointer is a void pointer, that means it can point to
+		anything from raw memory to all types. */
 		void* local = nullptr;
+		/* We reserve a chunk of memory in the execution stack */
 		FFrame* frame = new FFrame(this, theFunction, local);
+		/* Call of our function */
 		CallFunction(*frame, local, theFunction);
+		/* Clean our pointer to avoid memory leak */
 		delete frame;
 	}
 }
