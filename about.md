@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, focused in Python and Django.
+Game Developer and Lead Developer of Diorama Digital.
 
-email: agus[at]python.web.id
+email: fabio[at]dioramadigital.com
