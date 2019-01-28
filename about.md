@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
+<img src="./about_img.jpg" width="150" align="left">
 Game Developer and Lead Developer of Diorama Digital.
-<img src="./about_img.jpg">
 
 email: fabio[at]dioramadigital.com
