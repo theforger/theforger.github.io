@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="./about_img.jpg" width="150" align="left">
 Hey, my name is Fabio Gomes! I'm currently Lead Developer of Diorama Digital.
-This amazing girl at my side is my wife, she's an expert in Shaders and together offer support to a lot of indie studios.
+Also, I'm Founder of The Mind of Dev, a incredible company of me and this amazing girl at my side! She is my wife and she's an expert in Shaders! Together we offer support to a lot of indie studios on their journey.
 
 From the last 5 years, my main objective is to join the Game Development Industry in a great way!
 I try to keep contact with a lot of great developers to learn more and more, and also I always try to help the guys who need help.
