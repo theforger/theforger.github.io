@@ -24,4 +24,6 @@ A Fight Game is a game with a good combat system.
 
 This is my target! This is the core mechanic!
 I need to do a good combat system, if I'm able to do that, I'll able to continue with my project.
-If I fail doing the core mechanic, there's no reason to continue with this project with my current knowledge.
+If I fail doing the core mechanic, there's no reason to continue this project with my current knowledge.
+
+# Let's begin!
