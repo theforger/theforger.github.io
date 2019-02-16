@@ -17,4 +17,11 @@ So the first thing that I do when I start a project is to do a "Proof of concept
 I need to check if my project is really possible to be created with my knowledge!
 
 Basically, what a "Fight Game" is? A lot of people will say "Oh it's the story",
-or something like
+or something like "Is the design of the characters", blablabla.
+
+I'm a Programmer, and I need to see this with somekind of logic.
+A Fight Game is a game with a good combat system.
+
+This is my target! This is the core mechanic!
+I need to do a good combat system, if I'm able to do that, I'll able to continue with my project.
+If I fail doing the core mechanic, there's no reason to continue with this project with my current knowledge.
