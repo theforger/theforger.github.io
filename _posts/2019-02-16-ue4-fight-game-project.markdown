@@ -26,4 +26,9 @@ This is my target! This is the core mechanic!
 I need to do a good combat system, if I'm able to do that, I'll able to continue with my project.
 If I fail doing the core mechanic, there's no reason to continue this project with my current knowledge.
 
-# Let's begin!
+Let's begin this!
+
+# The Initial Setup
+
+For the initial setup, I've created a default C++ SideScroller Template on Unreal Engine 4.
+I had some good experiences with the Input Buffer Plugin from Marketplace, it's a free plugin and an amazing work of @Isatin
