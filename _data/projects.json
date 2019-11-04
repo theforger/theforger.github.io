@@ -22,5 +22,13 @@
 		"url": "https://www.overkillsthewalkingdead.com",
 		"date": "",
 		"tags": ["Game Development"]
+	},
+	{
+		"slug": "helsinki",
+		"name": "Helsinki University",
+		"image": "helsinki.jpg",
+		"url": "https://www.helsinki.fi",
+		"date": "ASDASD",
+		"tags": ["Serious Games"]
 	}
 ]
