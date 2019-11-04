@@ -4,7 +4,7 @@
 		"name": "Eternity - The Last Unicorn",
 		"image": "eternity.jpg",
 		"url": "http://eternity.voidstudios.com.br/",
-		"date": "",
+		"date": "Void Studios",
 		"tags": ["Game Development"]
 	},
 	{
@@ -12,7 +12,7 @@
 		"name": "Araní",
 		"image": "arani.jpg",
 		"url": "http://aranigame.com",
-		"date": "",
+		"date": "Diorama Digital",
 		"tags": ["Game Development"]
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "Overkill's The Walking Dead",
 		"image": "otwd.jpg",
 		"url": "https://www.overkillsthewalkingdead.com",
-		"date": "",
+		"date": "Starbreeze Studios",
 		"tags": ["Game Development"]
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "Helsinki University",
 		"image": "helsinki.jpg",
 		"url": "https://www.helsinki.fi",
-		"date": "ASDASD",
+		"date": "ZOAN",
 		"tags": ["Serious Games"]
 	}
 ]
