@@ -1,5 +1,5 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
+title: Criando um sistema de combate AAA com Blueprints.
+description: O Objetivo dessa série é explorar o sistema de blueprints criando um sistema de combate completo, sem uso de C++ ou Plugins auxiliares.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
