@@ -1,1 +1,0 @@
-sudo ARCH=amd64 GCLOUD_STACK_ID="428857" GCLOUD_API_KEY="eyJrIjoiODUzZmNmMTFjNjJlM2EyMGI4NjlmMTJiNWZlOGNjMGMwMmJiODYzYiIsIm4iOiJzdGFjay00Mjg4NTctZWFzeXN0YXJ0LWdjb20iLCJpZCI6NzAzNjA3fQ==" GCLOUD_API_URL="https://integrations-api-us-central.grafana.net" /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/grafana/agent/release/production/grafanacloud-install.sh)"
