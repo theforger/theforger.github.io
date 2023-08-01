@@ -198,7 +198,16 @@ const Projects = props => {
 
 
 
+    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
+    React.createElement(Project, {
+      title: "Park Beyond",
+      img: 'img/parkbeyond.jpg',
+      tech: "",
+      link: "https://en.bandainamcoent.eu/park-beyond/park-beyond",
+      repo: "" }, /*#__PURE__*/
 
+      
+    ), /*#__PURE__*/
 
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
@@ -241,7 +250,7 @@ const Projects = props => {
       
     ), /*#__PURE__*/
 
-)))))));
+))))))));
 
 
 
