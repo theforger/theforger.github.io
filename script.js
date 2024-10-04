@@ -218,7 +218,19 @@ const Projects = props => {
       repo: "" }, /*#__PURE__*/
 
       
-    ), /*#__PURE__*/
+    ),
+    /*#__PURE__*/
+    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
+      React.createElement(Project, {
+        title: "Borderlands",
+        img: 'img/borderlands.jpg',
+        tech: "",
+        link: "https://borderlands.2k.com/",
+        repo: "" }, /*#__PURE__*/
+  
+        
+    ),/*#__PURE__*/
+    
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
       title: "Overkill's The Walking Dead",
@@ -250,7 +262,7 @@ const Projects = props => {
       
     ), /*#__PURE__*/
 
-))))))));
+)))))))));
 
 
 
